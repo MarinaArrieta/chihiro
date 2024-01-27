@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #FF914D , #FF3131 100%);
+    padding: 0.1px;
+    background-repeat: no-repeat;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    padding: 0.1px;
+}
+
+h1{
+    font-family: 'Pak Kumis', sans-serif;
+    font-size: 3rem;
+    color: #523327;
+    background: radial-gradient(#FFDE59 -28%, #FF5722 100%);
+    text-align: center;
+    border-radius: 93px;
+    width: 174px;
+    padding: 12px;
+    margin: -3px 0px 0px -5px;
+}
+
+div{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+svg{
+    overflow: initial;
+    margin-bottom: -2px;
+}
