@@ -1,13 +1,16 @@
-body{
-    background-image: linear-gradient(to top, #30cfd0 0%, #FF914D , #FF3131 100%);
+header{
     padding: 0.1px;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #30cfd0 54%, #FF914D , #FF3131 100%);
 }
 
-header{
-    width: 100%;
+div:first-of-type{
     height: 100vh;
     padding: 0.1px;
+}
+
+section{
+    width: 100%;
+    height: 52vh;
 }
 
 h1{
@@ -15,20 +18,57 @@ h1{
     font-size: 3rem;
     color: #523327;
     background: radial-gradient(#FFDE59 -28%, #FF5722 100%);
+    box-shadow: 1px 4px 31px 2px #523327;
     text-align: center;
-    border-radius: 93px;
-    width: 174px;
-    padding: 12px;
+    border-radius: 100px;
+    width: 171px;
+    padding: 18px;
     margin: -3px 0px 0px -5px;
 }
 
-div{
+figure{
+    margin: 0;
+}
+
+figure:first-child img{
+    position: fixed;
+    left: 0;
+    width: 200px;
+    left: -22px;
+    bottom: -12px;
+    width: 200px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+figure:nth-child(2n) img{
+    width: 509px;
+    right: -230px;
+    top: 38px;
+    z-index: 1;
+    transform: rotate(-49deg);
+    position: fixed;
+    overflow: hidden;
+}
+
+section div:first-of-type{
+    height: 80px;
+    overflow: hidden;
+}
+
+section div:last-of-type{
+    height: 69px;
+    overflow: hidden;
+}
+
+.wave{
     position: absolute;
     width: 100%;
     bottom: 0;
 }
 
-svg{
-    overflow: initial;
-    margin-bottom: -2px;
+nav{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #032335 0%, #0099ff 99%);
 }
