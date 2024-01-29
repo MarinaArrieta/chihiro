@@ -1,29 +1,37 @@
 header{
     padding: 0.1px;
     background-image: linear-gradient(to top, #30cfd0 54%, #FF914D , #FF3131 100%);
+    overflow: hidden;
 }
 
-div:first-of-type{
+/*  Primer div */
+header:nth-child(1n) div:first-child{
     height: 100vh;
     padding: 0.1px;
+    overflow: hidden;
+    background-image: url(../image/img-header/nube.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section{
     width: 100%;
-    height: 52vh;
+    height: 76vh;
 }
 
 h1{
     font-family: 'Pak Kumis', sans-serif;
-    font-size: 3rem;
+    font-size: calc(0.6rem + 10vw);
     color: #523327;
-    background: radial-gradient(#FFDE59 -28%, #FF5722 100%);
-    box-shadow: 1px 4px 31px 6px #35160a;
+    background: radial-gradient(#FFDE59 -28%, #ff5722eb 100%);
+    box-shadow: 1px 4px 62px 18px #ffd300;
     text-align: center;
     border-radius: 100px;
-    width: 171px;
+    width: 41%;
     padding: 18px;
-    margin: -3px 0px 0px -5px;
+    margin: 2px 0px 0px 5px;
+    line-height: normal;
 }
 
 figure{
@@ -32,35 +40,33 @@ figure{
 
 figure:first-child img{
     position: fixed;
-    /* left: 0;
-    width: 200px; */
-    left: -22px;
-    bottom: -12px;
-    width: 200px;
+    bottom: 0px;
+    width: 50%;
     z-index: 1;
-    overflow: hidden;
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(2px 4px 3px black);
 }
 
 figure:nth-child(2n) img{
-    width: 509px;
-    right: -230px;
-    top: 38px;
+    width: calc(41% + 10vw);
     z-index: 1;
-    transform: rotate(-49deg);
     position: fixed;
-    overflow: hidden;
+    bottom: 0;
+    right: 0px;
     filter: drop-shadow(2px 4px 6px black);
 }
 
+/* Primer div de las Wave */
 section div:first-of-type{
-    height: 80px;
+    height: calc(7px + 20vw);
     overflow: hidden;
+    filter: drop-shadow(0px -6px 0px #e1e7eb);
 }
 
+/* Segundo div de las Wave */
 section div:last-of-type{
-    height: 69px;
+    height: calc(7px + 20vw);
     overflow: hidden;
+    filter: drop-shadow(0px -8px 0px #3838c1);
 }
 
 .wave{
@@ -74,103 +80,86 @@ nav{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding-top: 0.1px;
-    background-image: linear-gradient(to top, #032335 0%, #0099ff 99%);
+    background-image: linear-gradient(to top, #021723 0%, #0099ff 99%);
 }
 
 ul{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 /* Primer ul*/
 nav ul:first-child{
-    height: 60vh;
+    height: 70vh;
+    align-items: start;
 }
 
 /* Segundo ul*/
 nav ul:last-child{
-    height: 40vh;
+    height: 30vh;
+    align-items: end;
 }
 
-/* Position para todas las img */
-nav ul li figure img:only-child{
-    position: unset;
-}
-
-/* Primer ul: a y img */
-nav:first-of-type ul:first-of-type li:first-of-type a{
-    position: relative;
-    top: -139px;
-    margin-left: 83px;
-    font-family: 'Pak Kumis', sans-serif;
-    font-size: 2rem;
-    text-decoration: none;
-    color: #FF5722;
-}
-
+/* Primer ul: img */
 nav:first-of-type ul:first-of-type li:first-of-type img{
-    filter: drop-shadow(2px 20px 19px #1a668c);
-}
-
-nav:first-of-type ul:first-of-type li:last-of-type a{
+    width: calc(20% + 19vw);
     position: relative;
-    top: -115px;
-    margin-left: 9px;
-    font-family: 'Pak Kumis', sans-serif;
-    font-size: 1.5rem;;
-    text-decoration: none;
-    color: #483530;
-
-    text-shadow: 1px 2px 2px #fdfdfd;
-    -webkit-text-stroke-width: 1.8px;
-    background-color: aliceblue;
-    -webkit-text-stroke-color: #071461;
-}
+    filter: drop-shadow(2px 20px 19px #0e5477);
+} 
 
 nav:first-of-type ul:first-of-type li:last-of-type img{
-    width: 147px;
-    margin-left: -3px;
+    width: calc(20% + 19vw);
+    position: relative;
+    z-index: 0;
     filter: drop-shadow(2px 20px 19px #032335);
 }
 
 /* Segundo ul: a y img */
-nav:last-of-type ul:last-of-type li:first-of-type a{
+/* nav:last-of-type ul:last-of-type li:first-of-type a{
     position: relative;
     top: -139px;
     margin-left: 76px;
     font-family: 'Pak Kumis', sans-serif;
-    font-size: 2rem;
+    font-size: calc(0.1rem + 10vw);
     text-decoration: none;
-    color: #FF5722;
-}
+    color: #150354;
+    text-shadow: 0px 1px 1px #000000;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 26px );
+    --webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+} */
 
 nav:last-of-type ul:last-of-type li:first-of-type img{
-    width: 167px;
+    width: 60%;
     margin-left: 47px;
     margin-bottom: 32px;
     transform: rotate(-60deg);
     filter: drop-shadow(2px 20px 19px #032335);
 }
 
-nav:last-of-type ul:last-of-type li:last-of-type a{
+/* nav:last-of-type ul:last-of-type li:last-of-type a{
     position: relative;
     right: -238px;
     bottom: 61px;
     font-family: 'Pak Kumis', sans-serif;
-    font-size: 1.6rem;
+    font-size: calc(0.1rem + 8vw);
     text-decoration: none;
-    color: #FF5722;
-}
+    color: #150354;
+    text-shadow: 0px 1px 1px #000000;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 26px );
+    --webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+} */
 
 nav:last-of-type ul:last-of-type li:last-of-type img{
     transform: rotate(90deg);
     width: 121px;
     margin-left: 198px;
     margin-top: -74px;
-    filter: drop-shadow(2px 20px 19px #1a668c);
+    filter: drop-shadow(2px 14px 18px #1a668c);
 }
