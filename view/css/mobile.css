@@ -9,7 +9,7 @@ header:nth-child(1n) div:first-child{
     height: 100vh;
     padding: 0.1px;
     overflow: hidden;
-    background-image: url(../image/img-header/nube.jpg);
+    background-image: linear-gradient(to top,#795548b3 8%, #ff572200 25%), url(../image/img-header/nube.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,18 +20,19 @@ section{
     height: 76vh;
 }
 
-h1{
+.animate__tada{
     font-family: 'Pak Kumis', sans-serif;
     font-size: calc(0.6rem + 10vw);
     color: #523327;
     background: radial-gradient(#FFDE59 -28%, #ff5722eb 100%);
-    box-shadow: 1px 4px 62px 18px #ffd300;
+    box-shadow: 1px 4px 62px 18px #ffc1078f;
     text-align: center;
     border-radius: 100px;
     width: 41%;
     padding: 18px;
     margin: 2px 0px 0px 5px;
     line-height: normal;
+    animation-name: tada;
 }
 
 figure{
@@ -47,7 +48,7 @@ figure:first-child img{
 }
 
 figure:nth-child(2n) img{
-    width: calc(41% + 10vw);
+    width: calc(61% + 10vw);
     z-index: 1;
     position: fixed;
     bottom: 0;
@@ -79,13 +80,16 @@ nav{
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(to top, #021723 0%, #0099ff 99%);
+    background-image: linear-gradient(to top, #021723 0%, #0099ff 99%), url(../image/img-header/burbujas.png);
+    background-image: linear-gradient(to top, #021723b8 0%, #0099ff 97%), url(../image/img-header/burbujas.png);
+    background-position: center;
+    background-size: contain;
 }
 
 ul{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -93,73 +97,33 @@ ul{
 
 /* Primer ul*/
 nav ul:first-child{
-    height: 70vh;
+    height: 60vh;
     align-items: start;
 }
 
 /* Segundo ul*/
 nav ul:last-child{
-    height: 30vh;
+    height: 40vh;
     align-items: end;
 }
 
 /* Primer ul: img */
 nav:first-of-type ul:first-of-type li:first-of-type img{
-    width: calc(20% + 19vw);
+    width: calc(44% + 19vw);
     position: relative;
     filter: drop-shadow(2px 20px 19px #0e5477);
 } 
 
 nav:first-of-type ul:first-of-type li:last-of-type img{
-    width: calc(20% + 19vw);
+    width: 69%;
     position: relative;
     z-index: 0;
     filter: drop-shadow(2px 20px 19px #032335);
 }
 
-/* Segundo ul: a y img */
-/* nav:last-of-type ul:last-of-type li:first-of-type a{
-    position: relative;
-    top: -139px;
-    margin-left: 76px;
-    font-family: 'Pak Kumis', sans-serif;
-    font-size: calc(0.1rem + 10vw);
-    text-decoration: none;
-    color: #150354;
-    text-shadow: 0px 1px 1px #000000;
-    background: rgba( 255, 255, 255, 0.25 );
-    backdrop-filter: blur( 26px );
-    --webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-} */
-
+/* Segundo ul: img */
 nav:last-of-type ul:last-of-type li:first-of-type img{
-    width: 60%;
-    margin-left: 47px;
-    margin-bottom: 32px;
-    transform: rotate(-60deg);
-    filter: drop-shadow(2px 20px 19px #032335);
-}
-
-/* nav:last-of-type ul:last-of-type li:last-of-type a{
+    width: 87%;
     position: relative;
-    right: -238px;
-    bottom: 61px;
-    font-family: 'Pak Kumis', sans-serif;
-    font-size: calc(0.1rem + 8vw);
-    text-decoration: none;
-    color: #150354;
-    text-shadow: 0px 1px 1px #000000;
-    background: rgba( 255, 255, 255, 0.25 );
-    backdrop-filter: blur( 26px );
-    --webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-} */
-
-nav:last-of-type ul:last-of-type li:last-of-type img{
-    transform: rotate(90deg);
-    width: 121px;
-    margin-left: 198px;
-    margin-top: -74px;
-    filter: drop-shadow(2px 14px 18px #1a668c);
+    filter: drop-shadow(2px 20px 19px #032335);
 }
