@@ -1,6 +1,6 @@
 header{
     padding: 0.1px;
-    background-image: linear-gradient(to top, #30cfd0 54%, #FF914D , #FF3131 100%);
+    background: var(--gradient);
     overflow: hidden;
 }
 
@@ -9,65 +9,67 @@ header:nth-child(1n) div:first-child{
     height: 100vh;
     padding: 0.1px;
     overflow: hidden;
-    background-image: linear-gradient(to top,#795548b3 8%, #ff572200 25%), url(../image/img-header/nube.jpg);
+    background-image: var(--gradient-header-clouds);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-section{
+.container{
     width: 100%;
     height: 76vh;
 }
 
+/* H1 */
 .animate__tada{
-    font-family: 'Pak Kumis', sans-serif;
-    font-size: calc(0.6rem + 10vw);
-    color: #523327;
-    background: radial-gradient(#FFDE59 -28%, #ff5722eb 100%);
-    box-shadow: 1px 4px 62px 18px #ffc1078f;
+    font-family: var(--fuente-title);
+    font-size: 3rem;
+    color: var(--color-h1);
+    background: var(--radial-gradient-h1);
+    box-shadow: var(--box-shadow-h1);
     text-align: center;
-    border-radius: 100px;
-    width: 41%;
-    padding: 18px;
-    margin: 2px 0px 0px 5px;
+    border-radius: 64%;
+    width: 158px;
+    padding: 22px;
+    margin: 0;
     line-height: normal;
-    animation-name: tada;
 }
 
 figure{
     margin: 0;
 }
 
+/* Primer imágen: Chihiro */
 figure:first-child img{
     position: fixed;
     bottom: 0px;
     width: 50%;
     z-index: 1;
-    filter: drop-shadow(2px 4px 3px black);
+    filter: var(--filter-image-chihiro);
 }
 
+/* Segunda imágen: Haku */
 figure:nth-child(2n) img{
     width: calc(61% + 10vw);
     z-index: 1;
     position: fixed;
     bottom: 0;
     right: 0px;
-    filter: drop-shadow(2px 4px 6px black);
+    filter: var(--filter-image-haku);
 }
 
 /* Primer div de las Wave */
-section div:first-of-type{
+.container div:nth-child(3n){
     height: calc(7px + 20vw);
     overflow: hidden;
-    filter: drop-shadow(0px -6px 0px #e1e7eb);
+    filter: var(--filter-image-wave-lightblue);
 }
 
 /* Segundo div de las Wave */
-section div:last-of-type{
+.container div:nth-child(4n){
     height: calc(7px + 20vw);
     overflow: hidden;
-    filter: drop-shadow(0px -8px 0px #3838c1);
+    filter: var(--filter-image-wave-blue);
 }
 
 .wave{
@@ -80,8 +82,7 @@ nav{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-image: linear-gradient(to top, #021723 0%, #0099ff 99%), url(../image/img-header/burbujas.png);
-    background-image: linear-gradient(to top, #021723b8 0%, #0099ff 97%), url(../image/img-header/burbujas.png);
+    background-image: var(--background-image-nav);
     background-position: center;
     background-size: contain;
 }
@@ -97,33 +98,36 @@ ul{
 
 /* Primer ul*/
 nav ul:first-child{
+    width: 50%;
     height: 60vh;
     align-items: start;
 }
 
 /* Segundo ul*/
 nav ul:last-child{
-    height: 40vh;
+    width: 50%;
+    height: 50vh;
     align-items: end;
 }
 
 /* Primer ul: img */
 nav:first-of-type ul:first-of-type li:first-of-type img{
-    width: calc(44% + 19vw);
+    width: 83%;
     position: relative;
-    filter: drop-shadow(2px 20px 19px #0e5477);
+    filter: var(--filter-image-bubble-lightblue);
 } 
 
 nav:first-of-type ul:first-of-type li:last-of-type img{
     width: 69%;
     position: relative;
     z-index: 0;
-    filter: drop-shadow(2px 20px 19px #032335);
+    filter: var(--filter-image-bubble-blue);
 }
 
 /* Segundo ul: img */
 nav:last-of-type ul:last-of-type li:first-of-type img{
     width: 87%;
     position: relative;
-    filter: drop-shadow(2px 20px 19px #032335);
+    filter: var(--filter-image-bubble-blue);
+    z-index: 0;
 }

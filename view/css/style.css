@@ -3,11 +3,22 @@
 @import url('https://fonts.cdnfonts.com/css/pak-kumis');
 
 :root{
-    --font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
-    --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-    --font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
-    --font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
-    --font-size-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
-    --font-size-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
-    --font-size-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+
+    /* Paleta de colores */
+    --gradient:linear-gradient(to top, #30cfd0 54%, #FF914D , #FF3131 100%);
+    --gradient-header-clouds: linear-gradient(to top,#795548b3 8%, #ff572200 25%), url(../image/img-header/nube.jpg);
+    --color-h1: #523327;
+    --radial-gradient-h1: radial-gradient(#FFDE59 -28%, #ff5722eb 100%);
+    --box-shadow-h1: 1px 4px 62px 18px #ffc1078f;
+    --filter-image-chihiro: drop-shadow(2px 4px 3px black);
+    --filter-image-haku: drop-shadow(2px 4px 6px black);
+    --filter-image-wave-lightblue: drop-shadow(0px -6px 0px #e1e7eb);
+    --filter-image-wave-blue: drop-shadow(0px -8px 0px #3838c1);
+    --background-image-nav: linear-gradient(to top, #021723b8 0%, #0099ff 97%), url(../image/img-header/burbujas.png);
+    --filter-image-bubble-lightblue: drop-shadow(2px 20px 19px #0e5477);
+    --filter-image-bubble-blue: drop-shadow(2px 20px 19px #032335);
+
+    /* Fuentes */
+    --fuente-title:'Pak Kumis', sans-serif;
+
 }
