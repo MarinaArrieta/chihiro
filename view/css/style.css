@@ -14,7 +14,7 @@
     --filter-image-haku: drop-shadow(2px 4px 6px black);
     --filter-image-wave-lightblue: drop-shadow(0px -6px 0px #e1e7eb);
     --filter-image-wave-blue: drop-shadow(0px -8px 0px #3838c1);
-    --background-image-nav: linear-gradient(to top, #021723b8 0%, #0099ff 97%), url(../image/img-header/burbujas.png);
+    --background-image-nav: linear-gradient(to top, #021723b8 0%, #0099ff 99%), url(../image/img-header/burbujas.png);
     --filter-image-bubble-lightblue: drop-shadow(2px 20px 19px #0e5477);
     --filter-image-bubble-blue: drop-shadow(2px 20px 19px #032335);
 
