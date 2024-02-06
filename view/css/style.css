@@ -9,14 +9,16 @@
     --gradient-header-clouds: linear-gradient(to top,#795548b3 8%, #ff572200 25%), url(../image/img-header/nube.jpg);
     --color-h1: #523327;
     --radial-gradient-h1: radial-gradient(#FFDE59 -28%, #ff5722eb 100%);
-    --box-shadow-h1: 1px 4px 62px 18px #ffc1078f;
+    --box-shadow-h1: 1px 4px 62px 18px #ffc107;
     --filter-image-chihiro: drop-shadow(2px 4px 3px black);
     --filter-image-haku: drop-shadow(2px 4px 6px black);
     --filter-image-wave-lightblue: drop-shadow(0px -6px 0px #e1e7eb);
     --filter-image-wave-blue: drop-shadow(0px -8px 0px #3838c1);
     --background-image-nav: linear-gradient(to top, #021723b8 0%, #0099ff 99%), url(../image/img-header/burbujas.png);
-    --filter-image-bubble-lightblue: drop-shadow(2px 20px 19px #0e5477);
-    --filter-image-bubble-blue: drop-shadow(2px 20px 19px #032335);
+    --background-a: linear-gradient( 217deg, rgb(251 117 241), rgba(255, 0, 0, 0) 70.71% ), linear-gradient(127deg, rgb(135 249 135), rgb(2 241 255) 70.71%);
+    --box-shadow-a: 0px 19px 21px 2px #050937;
+    --border-a: 3px solid #f5deb399;
+    --color-a: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
 
     /* Fuentes */
     --fuente-title:'Pak Kumis', sans-serif;
