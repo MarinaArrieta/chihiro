@@ -1,0 +1,52 @@
+@media (min-width: 1024px){
+
+    .animate__rollIn {
+        font-size: 5rem;
+        width: 290px;
+        padding: 60px;
+        margin: 0 auto;
+    }
+
+    /* Imágen Chihiro */
+    figure:first-child img {
+        width: 274px;
+    }
+
+    /* Imágen Dragón Haku */
+    figure:nth-child(2n) img {
+        width: 425px;
+    }
+
+    ul {
+        width: 70%;
+        justify-content: flex-start;
+    }
+
+    /* Burbujas Nav */
+    a {
+        font-size: 2.6rem;
+        width: 170px;
+        height: 160px;
+        border-radius: 83px;
+    }
+
+    ul li:nth-child(2n) a {
+        width: 136px;
+        height: 136px;
+    }
+
+    ul li:nth-child(3n) a {
+        width: 166px;
+        height: 159px;
+        border-radius: 104px;
+        z-index: 1;
+    }
+
+    .container div:nth-child(3n) {
+        height: 156px;
+    }
+
+    .container div:nth-child(4n) {
+        height: 155px;
+    }
+}

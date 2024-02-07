@@ -1,0 +1,42 @@
+@media (min-width: 768px){
+
+    .animate__rollIn {
+        font-size: 4rem;
+        width: 210px;
+        padding: 32px;
+    }
+
+    figure:first-child img {
+        width: 41%;
+    }
+
+    figure:nth-child(2n) img {
+        width: 62%;
+    }
+
+    .container div:nth-child(4n) {
+        height: 18vh;
+    }
+
+    .container div:nth-child(3n) {
+        height: 17vh;
+    }
+
+    a{
+        font-size: 2rem;
+        width: 115px;
+        height: 115px;
+        border-radius: 62px;
+    }
+
+    ul li:nth-child(2n) a {
+        rotate: 7deg;
+        width: 95px;
+        height: 95px;
+    }
+
+    ul li:nth-child(3n) a {
+        width: 125px;
+        height: 125px;
+    }
+}

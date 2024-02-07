@@ -58,18 +58,15 @@ figure:nth-child(2n) img{
     filter: var(--filter-image-haku);
 }
 
-/* Primer div de las Wave */
+/* Div de la Wave */
 .container div:nth-child(3n){
     height: calc(7px + 20vw);
     overflow: hidden;
     filter: var(--filter-image-wave-lightblue);
 }
 
-/* Segundo div de las Wave */
-.container div:nth-child(4n){
-    height: calc(7px + 20vw);
-    overflow: hidden;
-    filter: var(--filter-image-wave-blue);
+path{
+    fill: var(--fill-path);
 }
 
 .wave{
@@ -107,7 +104,7 @@ ul:first-of-type li:first-of-type{
 }
 
 ul:first-of-type li:first-of-type:hover{
-    transform: translate(0%) scale(1.1);
+    transform: translateY(93%) scale(1.1);
     transition: 2s;
 }
 
@@ -119,7 +116,7 @@ li{
 }
 
 li:hover{
-    transform: translate(14%) scale(1.3);
+    transform: translate(20%) scale(1.3);
     transition: 2s;
 }
 
