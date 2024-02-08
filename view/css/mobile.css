@@ -1,11 +1,11 @@
-header{
+.container-index{
     padding: 0.1px;
     background: var(--gradient);
     overflow: hidden;
 }
 
 /*  Primer div */
-header:nth-child(1n) div:first-child{
+.container{
     height: 100vh;
     padding: 0.1px;
     overflow: hidden;
@@ -13,11 +13,6 @@ header:nth-child(1n) div:first-child{
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.container{
-    width: 100%;
-    height: 76vh;
 }
 
 /* H1 */
@@ -40,7 +35,7 @@ figure{
 }
 
 /* Primer imágen: Chihiro */
-figure:first-child img{
+.container div:nth-child(1n) figure:first-of-type img{
     position: fixed;
     bottom: 0px;
     width: 50%;
@@ -49,11 +44,11 @@ figure:first-child img{
 }
 
 /* Segunda imágen: Haku */
-figure:nth-child(2n) img{
+.container div:nth-child(2n) figure:last-of-type img{
     width: 77%;
     z-index: 1;
     position: fixed;
-    bottom: 0;
+    bottom: 20px;
     right: 0px;
     filter: var(--filter-image-haku);
 }
@@ -166,4 +161,115 @@ ul li:nth-child(3n) a{
 i{
     font-size: 5rem;
     color: var(--color-a);
+}
+
+/* Pantalla History */
+.container-history{
+    background-image: linear-gradient(to top, #30cfd0cf 23%, #FF914D , #ff3131a6 100%);
+    height: 100vh;
+    padding: 0.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Header */
+.container-history .nav-h1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 16vh;
+}
+
+.arrow{
+    width: 100%;
+    height: 67px;
+    position: relative;
+    z-index: 1;
+    background-image: none;
+}
+
+.container-history .nav-h1 .arrow a{
+    height: 34px;
+    background: none;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.container-history .nav-h1 .arrow i{
+    font-size: 1rem;
+    background-color: #FF3131;
+    color: #00fcad;
+    padding: 6px;
+    border-radius: 10px;
+    text-shadow: -1px 2px 1px black;
+}
+
+.container-history .history .wave1 {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    top: 0px;
+    filter: drop-shadow(0px 7px 0px #e1e7eb);
+}
+
+.container-history .history .wave1 path{
+    fill: rgb(252, 185, 0);
+}
+
+.container-history .history .wave2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    filter: var(--filter-image-wave-lightblue);
+}
+
+.container-history .history .wave2 svg{
+    box-shadow: 0px 8px 0px 8px #FCB900;
+}
+
+.container-history .history .wave2 path{
+    fill: rgb(252, 185, 0);
+}
+
+.container-history .history article{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container-history .nav-h1 h1{
+    font-family: var(--fuente-title);
+    font-size: 2.5rem;
+    text-shadow: -3px 2px 0px #f7d39e;
+    color: var(--color-h1);
+    position: relative;
+    z-index: 1;
+    margin: 0;
+}
+
+.container-history .history p{
+    font-size: 1.16rem;
+    padding: 19px;
+    text-align: justify;
+    color: #1a0700;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    --webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 73%;
+    text-shadow: -1px 1px 3px #f5deb3;
+    font-family: var(--fuente-p);
+    font-weight: 600;
+}
+
+.container-history .history p::first-letter {
+    font-size: 3rem;
 }
