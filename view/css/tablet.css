@@ -11,3 +11,24 @@
 .container div:nth-child(2n) figure:last-of-type img  {
     width: 57%;
 }
+
+/* Pantalla History */
+.container-history {
+    justify-content: unset;
+}
+
+.container-history header {
+    height: 31vh;
+}
+
+.nav-h1 figure img{
+    filter: var(--filter-image-haku);
+}
+
+.container-history .nav-h1 h1 {
+    font-size: 4rem;
+}
+
+.container-history main p {
+    font-size: 1.5rem;
+}
