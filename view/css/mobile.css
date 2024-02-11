@@ -127,7 +127,7 @@ ul:last-of-type li:last-of-type:hover{
     transition: 2s;
 }
 
-a{
+.nav-index a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,21 +306,22 @@ i{
 }
 
 /* Pantalla Author */
-body{
-    background-color:#00BCD4;
-    background-image:
-    radial-gradient(circle at 100% 150%, #00BCD4 24%, #000000 24%, #000000 28%, #00BCD4 28%, #00BCD4 36%, #000000 36%, #000000 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, #00BCD4 24%, #000000 24%, #000000 28%, #00BCD4 28%, #00BCD4 36%, #000000 36%, #000000 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, rgb(252, 107, 4) 10%, #00BCD4 10%, #00BCD4 23%, #000000 23%, #000000 30%, #00BCD4 30%, #00BCD4 43%, #000000 43%, #000000 50%, #00BCD4 50%, #00BCD4 63%, #000000 63%, #000000 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, rgb(252, 107, 4) 5%, #00BCD4 5%, #00BCD4 15%, #000000 15%, #000000 20%, #00BCD4 20%, #00BCD4 29%, #000000 29%, #000000 34%, #00BCD4 34%, #00BCD4 44%, #000000 44%, #000000 49%, transparent 49%, transparent),
-    radial-gradient(circle at 0    50%, rgb(252, 107, 4) 5%, #00BCD4 5%, #00BCD4 15%, #000000 15%, #000000 20%, #00BCD4 20%, #00BCD4 29%, #000000 29%, #000000 34%, #00BCD4 34%, #00BCD4 44%, #000000 44%, #000000 49%, transparent 49%, transparent);
-    background-size: 100px 50px;
+.container-author{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-author/poster.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .author{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 30vh;
 }
 
 .author figure{
@@ -333,30 +334,95 @@ body{
 }
 
 .author h1{
-    background-color: #d6eef1;
+    /* background-color: #d6eef1; */
     margin: 0;
     padding: 20px;
     text-align: center;
     font-family: var(--fuente-title);
-    color: #f2f7fc;
+    color: #052d41;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-    border: 1px solid #00e2ff;
-    box-shadow: 1px 5px 0px 4px #00262b;
+    background: var(--background-a);
+    border: 1px solid #ffbc00;
+    box-shadow: 1px 5px 0px 4px #631f0a;
+    text-shadow: -1px 0px 0px #f7f5f0;
+}
+
+.section-author main{
+    height: 40vh;
 }
 
 .section-author article{
     display: flex;
     justify-content: center;
+    /* height: 50vh; */
 }
 
 .section-author article p{
     width: 80%;
+    font-size: 1.2rem;
     font-family: var(--fuente-p);
     font-weight: bold;
+    margin-top: 0;
     padding: 10px;
-    color: #f2f7fc;
-    text-shadow: 1px 2px 3px black;
+    color: var(--color-h1);
+    text-shadow: -1px 1px 1px white;
     text-align: justify;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    --webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.section-author article p:hover{
+    font-size: 2rem;
+    color: chartreuse;
+    text-align: center;
+}
+
+footer{
+    height: 20vh;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #001416c4;
+    width: 128px;
+    border-radius: 41px;
+    padding: 10px;
+    margin-left: 6%;
+}
+
+footer h2{
+    font-family: var(--fuente-p);
+    color: #f2f7fc;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+footer ul{
+    padding: 0;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: var(--fuente-p);
+    color: #00ffea;
+    font-weight: 600;
+}
+
+footer figure{
+    width: 100%;
+}
+
+footer figure img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
 }
