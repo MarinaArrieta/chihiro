@@ -66,3 +66,7 @@ ul li:nth-child(3n) a {
     margin-bottom: 0;
     width: 70%;
 }
+
+.history section figure img {
+    width: 40%;
+}
