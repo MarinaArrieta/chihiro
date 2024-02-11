@@ -321,7 +321,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 25vh;
 }
 
 .author nav a{
@@ -336,7 +336,7 @@ i{
     position: absolute;
     top: 0;
     left: 0;
-    width: 55px;
+    width: 46px;
 }
 
 .author nav ul{
@@ -346,7 +346,7 @@ i{
 .author nav i{
     font-size: 1.4rem;
     color: #FFEB3B;
-    padding: 6px;
+    padding: 4px;
     /* text-shadow: -1px 2px 1px black; */
     box-shadow: 2px 3px 0px 1px #795548;
     border: solid;
@@ -457,4 +457,5 @@ footer figure img{
     right: 0;
     bottom: 0;
     width: 50%;
+    filter: drop-shadow(15px 20px 9px black);
 }
