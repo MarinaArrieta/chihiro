@@ -47,3 +47,22 @@ ul li:nth-child(3n) a {
 .container div:nth-child(4n) {
     height: 155px;
 }
+
+/* Pantalla History */
+.nav-h1 figure img {
+    width: 498px;
+}
+
+.container-history nav ul {
+    width: 132px;
+}
+
+.container-history header nav i {
+    font-size: 2rem;
+}
+
+.container-history main p {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    width: 70%;
+}
