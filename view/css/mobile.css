@@ -324,6 +324,38 @@ i{
     height: 30vh;
 }
 
+.author nav a{
+    height: 34px;
+    background: none;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.author nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+}
+
+.author nav ul{
+    margin-top: 9px;
+}
+
+.author nav i{
+    font-size: 1.4rem;
+    color: #FFEB3B;
+    padding: 6px;
+    /* text-shadow: -1px 2px 1px black; */
+    box-shadow: 2px 3px 0px 1px #795548;
+    border: solid;
+    border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
+    background: var(--background-a);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 .author figure{
     width: 40%;
 }
