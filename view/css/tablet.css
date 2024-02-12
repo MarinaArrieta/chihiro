@@ -36,3 +36,36 @@
 .history section figure img {
     width: 64%;
 }
+
+/* Pantalla Author */
+.author nav {
+    width: 67px;
+}
+
+.author nav i {
+    padding: 7px;
+}
+
+.author figure img {
+    width: 65%;
+}
+
+.author h1 {
+    padding: 40px;
+}
+
+.section-author article p {
+    font-size: 1.5rem;
+}
+
+footer {
+    height: unset;
+}
+
+footer div {
+    margin-left: 11%;
+}
+
+footer figure img {
+    width: 27%;
+}
