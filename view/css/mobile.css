@@ -407,12 +407,6 @@ i{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.section-author article p:hover{
-    font-size: 2rem;
-    color: chartreuse;
-    text-align: center;
-}
-
 footer{
     height: 20vh;
 }
@@ -440,12 +434,19 @@ footer ul{
     padding: 0;
     display: flex;
 }
+
 footer a{
     text-decoration: none;
     font-size: 1.1rem;
     font-family: var(--fuente-p);
     color: #00ffea;
     font-weight: 600;
+}
+
+footer a:hover{
+    font-size: 2rem;
+    color: chartreuse;
+    text-align: center;
 }
 
 footer figure{
