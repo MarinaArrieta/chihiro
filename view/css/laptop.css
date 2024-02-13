@@ -131,3 +131,35 @@ ul li:nth-child(3n) a {
         width: 271px;
     }
 }
+
+/* Pantalla Characters */
+.footer-characters nav ul{
+    width: unset;
+}
+.footer-characters a {
+    width: 100%;
+    height: unset;
+}
+
+@media (min-width: 1440px) {
+
+    .container-characters nav i {
+        font-size: 2rem;
+    }
+
+    .haku figure {
+        width: 21%;
+    }
+
+    .haku figure img {
+        width: 239px;
+    }
+
+    .haku h1 {
+        font-size: 6rem;
+    }
+
+    .haku article p {
+        font-size: 3rem;
+    }
+}

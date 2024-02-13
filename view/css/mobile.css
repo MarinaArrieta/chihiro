@@ -620,3 +620,7 @@ ul:last-of-type li:last-of-type {
     color: #00ffea;
     font-weight: 600;
 }
+
+.footer-characters a:hover{
+    color: chartreuse;
+}
