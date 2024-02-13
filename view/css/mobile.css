@@ -674,7 +674,13 @@ ul:last-of-type li:last-of-type {
 
 .jiufen h2{
     margin: 0;
-    font-size: 3rem;
+    border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
+    background: var(--background-a);
+    border: 1px solid #ffbc00;
+    box-shadow: 1px 5px 0px 4px #631f0a;
+    text-shadow: -1px 0px 0px #f7f5f0;
+    padding: 22px;
+    font-size: 2.3rem;
     font-family: var(--fuente-title);
 }
 
