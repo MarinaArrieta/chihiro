@@ -463,11 +463,6 @@ footer h2{
 }
 
 /* Pantalla Characters */
-.container-characters{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
 
 .container-characters nav {
     position: fixed;
@@ -507,77 +502,6 @@ ul:last-of-type li:last-of-type {
     -webkit-text-stroke-color: black;
 }
 
-.chihiro{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/house.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.chihiro div{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    height: 40vh;
-    width: 100%;
-}
-
-.wave2{
-    filter: drop-shadow(0px -13px 0px #ff5722eb);
-}
-
-.chihiro figure{
-    width: 40%;
-    filter: drop-shadow(-13px 10px 4px #f0f8ff80);
-}
-
-.chihiro figure img{
-    width: 183px;
-    filter: drop-shadow(-13px 10px 4px #000000d4);
-}
-
-.chihiro h1{
-    font-family: var(--fuente-title);
-    color: var(--color-h1);
-    font-size: 2.3rem;
-    text-shadow: 1px 2px 0px wheat;
-    text-align: center;
-    background-image: linear-gradient(to top, #7ce2ef 0%, #FF9800 100%);
-    padding: 5px;
-    border: 1px solid #795548;
-    border-radius: 4px;
-    margin-bottom: 0;
-    position: relative;
-}
-
-.chihiro article{
-    display: flex;
-    justify-content: center;
-}
-
-.chihiro article p {
-    width: 80%;
-    font-size: 1.2rem;
-    font-family: var(--fuente-p);
-    font-weight: bold;
-    margin-top: 0;
-    padding: 10px;
-    color: var(--color-h1);
-    text-shadow: -1px 1px 1px white;
-    text-align: justify;
-    background: rgba( 255, 255, 255, 0.55 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16.5px );
-    --webkit-backdrop-filter: blur( 16.5px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-}
-
 /* Section Haku */
 .haku{
     display: flex;
@@ -597,7 +521,10 @@ ul:last-of-type li:last-of-type {
     align-items: end;
     height: 40vh;
     width: 100%;
-    /* filter: drop-shadow(0px 6px 0px aliceblue); */
+}
+
+.wave2{
+    filter: drop-shadow(0px -13px 0px #ff5722eb);
 }
 
 .wave3{
@@ -653,6 +580,11 @@ ul:last-of-type li:last-of-type {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+/* Section Chihiro */
+.chihiro{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/chihiro/house.jpg);
+}
+
 /* Section Yubaba */
 .yubaba{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/yubaba/poster.jpg);
@@ -686,4 +618,40 @@ ul:last-of-type li:last-of-type {
 /* Section Zeniba */
 .zeniba{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/zeniba/zeniba1.jpg);
+}
+
+.footer-characters{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%);
+}
+
+.footer-characters nav{
+    background-color: #001416c4;
+    width: 300px;
+    border-radius: 41px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-characters nav ul{
+    padding: 0;
+}
+
+.footer-characters h2{
+    font-family: var(--fuente-p);
+    color: #f2f7fc;
+    margin: 31px;
+    font-size: 3rem;
+}
+
+.footer-characters a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: var(--fuente-p);
+    color: #00ffea;
+    font-weight: 600;
 }
