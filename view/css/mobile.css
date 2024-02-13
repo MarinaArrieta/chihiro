@@ -649,3 +649,8 @@ ul:last-of-type li:last-of-type {
 .sincara{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/sincara/poster.jpg);
 }
+
+/* Section Bo */
+.bo{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/bo/poster.jpg);
+}
