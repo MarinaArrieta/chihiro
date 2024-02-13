@@ -87,42 +87,54 @@ path{
     margin: 0;
     padding: 15px;
     width: 90%;
-    height: 45vh;
+    height: 58vh;
 }
 
 /* Primer li */
-ul:first-of-type li:first-of-type{
+.history{
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
 
-ul:first-of-type li:first-of-type:hover{
+.history:hover{
     transform: translateY(93%) scale(1.1);
     transition: 2s;
 }
 
 /* Segundo li */
-li{
+.li-author{
     display: flex;
-    align-items: center;
-    justify-content: start;  
+    /* align-items: center; */
+    justify-content: end;
 }
 
-li:hover{
+.li-author:hover{
     transform: translate(20%) scale(1.3);
     transition: 2s;
 }
 
 /* Tercer li */
-ul:last-of-type li:last-of-type{
+.li-characters{
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+}
+
+.li-characters:hover{
+    transform: translate(-21%) scale(1.3);
+    transition: 2s;
+}
+
+/* Cuarto li */
+.li-inspiration{
     display: flex;
     align-items: center;
     justify-content: end;
 }
 
-ul:last-of-type li:last-of-type:hover{
+.li-inspiration:hover{
     transform: translate(-21%) scale(1.3);
     transition: 2s;
 }
@@ -147,8 +159,8 @@ ul:last-of-type li:last-of-type:hover{
 
 ul li:nth-child(2n) a{
     rotate: 7deg;
-    width: 80px;
-    height: 80px;
+    width: 103px;
+    height: 102px;
 }
 
 ul li:nth-child(3n) a{
@@ -623,4 +635,69 @@ ul:last-of-type li:last-of-type {
 
 .footer-characters a:hover{
     color: chartreuse;
+}
+
+/* Pantalla Inspiration */
+
+.titulo-inspiracion{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    font-size: 3rem;
+    color: var(--color-h1);
+    text-shadow: 1px 2px 0px wheat;
+    font-family: var(--fuente-title);
+    background-image: linear-gradient(to top, #30cfd073 3%, #ff914d 54%, #ff31317a 81%), url(../image/img-inspiration/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.jiufen{
+    height: 100vh;
+    background-image: linear-gradient(to top, #30cfd073 3%, #ff914d8f 54%, #ff31317a 81%),url(../image/img-inspiration/jiufen/jiufen2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.jiufen article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.jiufen h2{
+    margin: 0;
+    font-size: 3rem;
+    font-family: var(--fuente-title);
+}
+
+.jiufen p{
+    font-size: 1.3rem;
+    font-family: var(--fuente-p);
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    --webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 80%;
+    padding: 15px;
+    text-align: justify;
+}
+
+.jiufen figure{
+    display: flex;
+    justify-content: center;
+}
+
+.jiufen figure img{
+    width: 90%;
+    border-radius: 4px;
 }
