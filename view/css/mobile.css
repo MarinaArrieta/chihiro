@@ -644,3 +644,8 @@ ul:last-of-type li:last-of-type {
 .susuwatari{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/susuwatari/susuwatari1.jpg);
 }
+
+/* Section Sin cara */
+.sincara{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/sincara/poster.jpg);
+}
