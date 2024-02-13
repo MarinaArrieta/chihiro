@@ -525,11 +525,15 @@ ul:last-of-type li:last-of-type {
     align-items: end;
     height: 40vh;
     width: 100%;
-    filter: var(--filter-image-wave-lightblue);
+}
+
+.wave2{
+    filter: drop-shadow(0px -13px 0px #ff5722eb);
 }
 
 .chihiro figure{
     width: 40%;
+    filter: drop-shadow(-13px 10px 4px #f0f8ff80);
 }
 
 .chihiro figure img{
@@ -540,8 +544,15 @@ ul:last-of-type li:last-of-type {
 .chihiro h1{
     font-family: var(--fuente-title);
     color: var(--color-h1);
-    font-size: 4rem;
+    font-size: 2.3rem;
     text-shadow: 1px 2px 0px wheat;
+    text-align: center;
+    background-image: linear-gradient(to top, #7ce2ef 0%, #FF9800 100%);
+    padding: 5px;
+    border: 1px solid #795548;
+    border-radius: 4px;
+    margin-bottom: 0;
+    position: relative;
 }
 
 .chihiro article{
@@ -586,13 +597,18 @@ ul:last-of-type li:last-of-type {
     align-items: end;
     height: 40vh;
     width: 100%;
-    filter: drop-shadow(0px 6px 0px aliceblue);
+    /* filter: drop-shadow(0px 6px 0px aliceblue); */
+}
+
+.wave3{
+    filter: drop-shadow(0px 13px 0px #30cfd0);
 }
 
 .haku figure{
     width: 40%;
     position: relative;
-    z-index: -1;
+    z-index: 0;
+    filter: drop-shadow(-13px 10px 4px #f0f8ff80);
 }
 
 .haku figure img{
@@ -611,6 +627,7 @@ ul:last-of-type li:last-of-type {
     border: 1px solid #795548;
     border-radius: 4px;
     margin-bottom: 0;
+    position: relative;
 }
 
 .haku article{
