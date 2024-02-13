@@ -639,3 +639,8 @@ ul:last-of-type li:last-of-type {
 .kamaji{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/kamaji/kamaji1.jpg);
 }
+
+/* Section Susuwatari */
+.susuwatari{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/susuwatari/susuwatari1.jpg);
+}
