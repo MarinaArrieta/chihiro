@@ -461,3 +461,169 @@ footer h2{
     width: 50%;
     filter: drop-shadow(15px 20px 9px black);
 }
+
+/* Pantalla Characters */
+.container-characters{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-characters nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 46px;
+}
+
+.container-characters nav ul {
+    margin-top: 9px;
+}
+
+ul:last-of-type li:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.container-characters nav a {
+    height: 34px;
+    background: none;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.container-characters nav i {
+    font-size: 1.4rem;
+    color: #FFEB3B;
+    padding: 4px;
+    box-shadow: 2px 3px 0px 1px #795548;
+    border: solid;
+    border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
+    background: var(--background-a);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.chihiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/house.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chihiro div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40vh;
+}
+
+.chihiro figure{
+    width: 40%;
+}
+
+.chihiro figure img{
+    width: 100%;
+    filter: drop-shadow(-13px 10px 4px #000000d4);
+}
+
+.chihiro h1{
+    font-family: var(--fuente-title);
+    color: var(--color-h1);
+    font-size: 4rem;
+    text-shadow: 1px 2px 0px wheat;
+}
+
+.chihiro article{
+    display: flex;
+    justify-content: center;
+}
+
+.chihiro article p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: var(--fuente-p);
+    font-weight: bold;
+    margin-top: 0;
+    padding: 10px;
+    color: var(--color-h1);
+    text-shadow: -1px 1px 1px white;
+    text-align: justify;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    --webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Section Haku */
+.haku{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/haku/dragon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.haku div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 40vh;
+}
+
+.haku figure{
+    width: 40%;
+}
+
+.haku figure img{
+    width: 100%;
+    filter: drop-shadow(-13px 10px 4px #000000d4);
+}
+
+.haku h1{
+    font-family: var(--fuente-title);
+    color: var(--color-h1);
+    font-size: 4rem;
+    text-shadow: 1px 2px 0px wheat;
+}
+
+.haku article{
+    display: flex;
+    justify-content: center;
+}
+
+.haku article p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-family: var(--fuente-p);
+    font-weight: bold;
+    margin-top: 0;
+    padding: 10px;
+    color: var(--color-h1);
+    text-shadow: -1px 1px 1px white;
+    text-align: justify;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16.5px );
+    --webkit-backdrop-filter: blur( 16.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* Section Yubaba */
+.yubaba{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/yubaba/poster.jpg);
+}
