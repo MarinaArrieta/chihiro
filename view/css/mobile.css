@@ -523,6 +523,7 @@ ul:last-of-type li:last-of-type {
     justify-content: center;
     align-items: end;
     height: 40vh;
+    width: 100%;
 }
 
 .chihiro figure{
@@ -582,6 +583,7 @@ ul:last-of-type li:last-of-type {
     justify-content: center;
     align-items: end;
     height: 40vh;
+    width: 100%;
 }
 
 .haku figure{
@@ -626,4 +628,14 @@ ul:last-of-type li:last-of-type {
 /* Section Yubaba */
 .yubaba{
     background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/yubaba/poster.jpg);
+}
+
+/* Section Lin */
+.lin{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/lin/limpiando.jpg);
+}
+
+/* Section Kamaji */
+.kamaji{
+    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/kamaji/kamaji1.jpg);
 }
