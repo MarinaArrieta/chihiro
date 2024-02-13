@@ -72,3 +72,12 @@
 .footer-author figure img {
     width: 27%;
 }
+
+/* Pantalla Characters */
+.haku h1 {
+    font-size: 5rem;
+}
+
+.haku article p {
+    font-size: 2rem;
+}
