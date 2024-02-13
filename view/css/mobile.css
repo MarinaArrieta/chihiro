@@ -642,13 +642,14 @@ ul:last-of-type li:last-of-type {
 .titulo-inspiracion{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
     height: 100vh;
     font-size: 3rem;
     color: var(--color-h1);
     text-shadow: 1px 2px 0px wheat;
     font-family: var(--fuente-title);
-    background-image: linear-gradient(to top, #30cfd073 3%, #ff914d 54%, #ff31317a 81%), url(../image/img-inspiration/flowers.jpg);
+    background-image: linear-gradient(to top, #30cfd0ba 3%, #ff914d 54%, #ff313199 81%), url(../image/img-inspiration/flowers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;

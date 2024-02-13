@@ -74,10 +74,24 @@
 }
 
 /* Pantalla Characters */
+
 .haku h1 {
     font-size: 5rem;
 }
 
 .haku article p {
     font-size: 2rem;
+}
+
+/* Pantalla Inspiration*/
+.jiufen p {
+    font-size: 1.6rem;
+}
+
+.dogo p {
+    font-size: 1.6rem;
+}
+
+.dogo figure img {
+    width: 55%;
 }
