@@ -58,17 +58,17 @@
     font-size: 1.5rem;
 }
 
-footer {
+.footer-author {
     height: unset;
 }
 
-footer div {
+.footer-author div {
     margin-left: 11%;
     width: 226px;
     padding: 14px;
 
 }
 
-footer figure img {
+.footer-author figure img {
     width: 27%;
 }

@@ -407,11 +407,11 @@ i{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-footer{
+.footer-author{
     height: 20vh;
 }
 
-footer div{
+.footer-author div{
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -430,12 +430,13 @@ footer h2{
     font-size: 1.2rem;
 }
 
-footer ul{
+.footer-author div:last-of-type ul{
     padding: 0;
     display: flex;
+    width: unset;
 }
 
-footer a{
+.footer-author a{
     text-decoration: none;
     font-size: 1.1rem;
     font-family: var(--fuente-p);
@@ -443,17 +444,17 @@ footer a{
     font-weight: 600;
 }
 
-footer a:hover{
+.footer-author a:hover{
     font-size: 2rem;
     color: chartreuse;
     text-align: center;
 }
 
-footer figure{
+.footer-author figure{
     width: 100%;
 }
 
-footer figure img{
+.footer-author figure img{
     position: absolute;
     right: 0;
     bottom: 0;

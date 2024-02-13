@@ -68,5 +68,66 @@ ul li:nth-child(3n) a {
 }
 
 .history section figure img {
-    width: 40%;
+    width: 205px;
+}
+
+/* Pantalla Author */
+.author figure img {
+    width: 216px;
+}
+
+.footer-author figure img {
+    width: 224px;
+}
+
+.footer-author div {
+    width: 294px;
+}
+
+.footer-author div:last-of-type ul {
+    margin-bottom: 0;
+}
+
+.footer-author div:last-of-type li a{
+    height: 31px;
+    border-radius: 0%;
+    text-align: center;
+}
+
+@media (min-width: 1440px) {
+    .author nav i {
+        font-size: 2rem;
+    }
+
+    .author figure img {
+        width: 268px;
+    }
+
+    .author h1 {
+        font-size: 3rem;
+    }
+
+    .section-author article p {
+        font-size: 2rem;
+    }
+
+    .footer-author div {
+        width: 340px;
+    }
+
+    .footer-author h2 {
+        font-size: 2rem;
+        font-size: 1.6rem;
+
+    }
+
+    .footer-author div:last-of-type li a {
+        font-size: 2rem;
+        width: 300px;
+        margin-bottom: 13px;
+    }
+
+    .footer-author figure img {
+        width: 271px;
+    }
 }
