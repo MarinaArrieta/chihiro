@@ -1,3 +1,6 @@
+body{
+    cursor: url(../image/cursor.png), auto;
+}
 .container-index{
     padding: 0.1px;
     background: var(--gradient);
@@ -212,6 +215,10 @@ i{
     -webkit-text-stroke-color: var(--black);
 }
 
+.arrow i:hover{
+    color: var(--a-hover);
+}
+
 .container-history .history article {
     display: flex;
     align-items: center;
@@ -311,6 +318,10 @@ i{
     background: var(--background-a);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--black);
+}
+
+.author nav i:hover{
+    color: var(--a-hover);
 }
 
 .author figure{
@@ -454,6 +465,10 @@ ul:last-of-type li:last-of-type {
     background: var(--background-a);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--black);
+}
+
+.container-characters nav i:hover{
+    color: var(--a-hover);
 }
 
 /* Haku section */
