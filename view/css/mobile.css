@@ -242,7 +242,7 @@ i{
     padding: 19px;
     margin-bottom: 0;
     text-align: justify;
-    color: var(--history-main-p);
+    color: var(--color-h1);
     background: var(--history-main-background);
     box-shadow: var(--shadow-history-p);
     backdrop-filter: blur( 17px );
@@ -252,7 +252,8 @@ i{
     width: 73%;
     text-shadow: var(--shadow-history-text-p);
     font-family: var(--fuente-p);
-    font-weight: 600;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .container-history .history p::first-letter {
@@ -280,6 +281,7 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    line-height: unset;
 }
 
 .author{
@@ -371,6 +373,7 @@ i{
     --webkit-backdrop-filter: blur( 16.5px );
     border-radius: 10px;
     border: var(--section-author-article-p-border);
+    font-style: italic;
 }
 
 .footer-author{
@@ -407,6 +410,7 @@ footer h2{
     font-family: var(--fuente-p);
     color: var(--footer-author-a);
     font-weight: 600;
+    font-style: italic;
 }
 
 .footer-author a:hover{
@@ -490,12 +494,10 @@ ul:last-of-type li:last-of-type {
     align-items: end;
     height: 40vh;
     width: 100%;
-    overflow: unset;
 }
 
 .wave2{
     filter: var(--wave2);
-    overflow: unset;
 }
 
 .wave3{
@@ -511,7 +513,7 @@ ul:last-of-type li:last-of-type {
 
 .haku figure img{
     width: 186px;
-    filter: var(--haku-figure);
+    filter: drop-shadow(-15px 1px 0px black);
 }
 
 .haku h1{
@@ -549,6 +551,7 @@ ul:last-of-type li:last-of-type {
     --webkit-backdrop-filter: blur( 16.5px );
     border-radius: 10px;
     border: var(--haku-article-p-border);
+    font-style: italic;
 }
 
 /* Section Chihiro */
@@ -625,6 +628,7 @@ ul:last-of-type li:last-of-type {
     font-family: var(--fuente-p);
     color: var(--footer-author-a);
     font-weight: 600;
+    font-style: italic;
 }
 
 .footer-characters a:hover{
@@ -696,6 +700,10 @@ ul:last-of-type li:last-of-type {
     width: 80%;
     padding: 15px;
     text-align: justify;
+    font-style: italic;
+    text-shadow: var(--haku-article-p-text-shadow);
+    font-weight: bold;
+    color: var(--color-h1);
 }
 
 .jiufen figure{
@@ -755,6 +763,10 @@ ul:last-of-type li:last-of-type {
     width: 80%;
     padding: 15px;
     text-align: justify;
+    font-style: italic;
+    text-shadow: var(--haku-article-p-text-shadow);
+    font-weight: bold;
+    color: var(--color-h1);
 }
 
 .dogo figure{
