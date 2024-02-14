@@ -14,4 +14,4 @@ Herramientas:
 
 🐉 Validación de código: https://validator.w3.org/#validate_by_input
 
-[![index.png](https://i.postimg.cc/GhSdddvL/index.png)](https://postimg.cc/GHYZj0MV)
+[![index.png](https://i.postimg.cc/cJZZ8jf9/index.png)](https://postimg.cc/18WbkvCw)
