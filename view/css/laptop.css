@@ -55,12 +55,13 @@
 }
 
 /* Pantalla History */
-.nav-h1 figure img {
-    width: 498px;
+
+.arrow {
+    width: 69px;
 }
 
-.container-history nav ul {
-    width: 132px;
+.nav-h1 figure img {
+    width: 498px;
 }
 
 .container-history header nav i {
@@ -73,8 +74,8 @@
     width: 70%;
 }
 
-.history section figure img {
-    width: 205px;
+.history figure img {
+    width: 605px;
 }
 
 /* Pantalla Author */
@@ -128,7 +129,24 @@
         height: 161px;
     }
 
-    /* Pantalla Historia */
+    /* Pantalla History */
+    .arrow {
+        width: 100px;
+    }
+
+    .container-history header nav i {
+        font-size: 3rem;
+    }
+
+    .history article h1 {
+        font-size: 5rem;
+    }
+
+    .container-history main p {
+        font-size: 2.6rem;
+    }
+
+    /* Pantalla Author */
     .author nav i {
         font-size: 2rem;
     }
