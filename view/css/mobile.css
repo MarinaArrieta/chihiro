@@ -639,7 +639,7 @@ ul:last-of-type li:last-of-type {
 
 .container-inspiration{
     padding: 0.1px;
-    background-image: var(--footer-characters-background-image);
+    background-image: var(--footer-characters-background-image), url(../image/img-inspiration/dos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -649,18 +649,19 @@ ul:last-of-type li:last-of-type {
 .wave-inspiracion{
     height: 100vh !important;
     position: fixed;
-    filter: drop-shadow(34px 0px 0px aliceblue);
+    filter: drop-shadow(19px 0px 0px aliceblue);
 }
 
 .wave-inspiracion2{
     height: 100vh !important;
     position: fixed;
-    filter: drop-shadow(-34px 0px 0px aliceblue);
+    filter: drop-shadow(-19px 0px 0px aliceblue);
 }
 
 .nav-inspiration{
     position: fixed;
     z-index: 1;
+    width: 30px;
 }
 
 .nav-inspiration li{
@@ -750,6 +751,7 @@ ul:last-of-type li:last-of-type {
 .jiufen figure{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .jiufen figure img{
@@ -808,6 +810,7 @@ ul:last-of-type li:last-of-type {
 .dogo figure{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .dogo figure img{
