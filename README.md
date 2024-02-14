@@ -4,12 +4,14 @@ Herramientas:
 
 🐉 Maquetación: CANVA
 
-🐉 Imágenes: Gimp, Leonardo AI, Tiny png, Pinterest
+🐉 Imágenes: Gimp, Leonardo AI, Tiny png, Pinterest, Remove.bg
 
-🐉 Estilos CSS: Getwaves, CSS Border Radius Generator, Gradient Magic
+🐉 Estilos CSS: CSS Border Radius Generator, Gradient Magic, Smooth.ie, Gradientmagic.com
 
 🐉 Iconos: Font Awesom
 
 🐉 Fuentes: Google Font, CDN Fonts
+
+🐉 Validación de código: https://validator.w3.org/#validate_by_input
 
 [![index.png](https://i.postimg.cc/GhSdddvL/index.png)](https://postimg.cc/GHYZj0MV)
