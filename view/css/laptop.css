@@ -5,12 +5,12 @@
     margin: 0 auto;
 }
 
-/* Imágen Chihiro */
+/* Chihiro img */
 .container div:nth-child(1n) figure:first-of-type img {
     width: 274px;
 }
 
-/* Imágen Dragón Haku */
+/* Haku dragon img */
 .container div:nth-child(2n) figure:last-of-type img {
     width: 416px;
 }
@@ -20,7 +20,7 @@
     justify-content: flex-start;
 }
 
-/* Burbujas Nav */
+/* Nav bubbles*/
 
 .container-index nav ul {
     width: 621px;
@@ -54,7 +54,7 @@
     height: 155px;
 }
 
-/* Pantalla History */
+/* History screen */
 
 .arrow {
     width: 69px;
@@ -78,7 +78,7 @@
     width: 605px;
 }
 
-/* Pantalla Author */
+/* Author screen */
 .author figure img {
     width: 216px;
 }
@@ -101,10 +101,11 @@
     text-align: center;
 }
 
-/* Pantalla Characters */
+/* Characters screen */
 .footer-characters nav ul{
     width: unset;
 }
+
 .footer-characters a {
     width: 100%;
     height: unset;
@@ -112,7 +113,7 @@
 
 @media (min-width: 1440px) {
 
-    /* Pantalla Index */
+    /* Index  screen */
     .nav-index a {
         font-size: 3rem;
         width: 139px;
@@ -129,7 +130,7 @@
         height: 161px;
     }
 
-    /* Pantalla History */
+    /* History screen */
     .arrow {
         width: 100px;
     }
@@ -143,10 +144,10 @@
     }
 
     .container-history main p {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
     }
 
-    /* Pantalla Author */
+    /* Author screen */
     .author nav i {
         font-size: 2rem;
     }
@@ -183,7 +184,12 @@
         width: 271px;
     }
 
-    /* Pantalla Author */
+    /* Characters screen */
+    .container-characters nav ul {
+        width: 67px;
+        padding: 0;
+    }
+
     .container-characters nav i {
         font-size: 2rem;
     }
@@ -204,7 +210,7 @@
         font-size: 3rem;
     }
 
-    /* Pantalla Inspiration */
+    /* Inspiration screen*/
     .titulo-inspiracion {
         font-size: 6rem;
     }

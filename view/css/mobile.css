@@ -4,7 +4,6 @@
     overflow: hidden;
 }
 
-/*  Primer div */
 .container{
     height: 100vh;
     padding: 0.1px;
@@ -34,7 +33,7 @@ figure{
     margin: 0;
 }
 
-/* Primer imágen: Chihiro */
+/* Chihiro img*/
 .container div:nth-child(1n) figure:first-of-type img{
     position: fixed;
     bottom: 0px;
@@ -43,7 +42,7 @@ figure{
     filter: var(--filter-image-chihiro);
 }
 
-/* Segunda imágen: Haku */
+/* Haku img */
 .container div:nth-child(2n) figure:last-of-type img{
     width: 77%;
     z-index: 1;
@@ -53,7 +52,7 @@ figure{
     filter: var(--filter-image-haku);
 }
 
-/* Div de la Wave */
+/* Wave div */
 .container div:nth-child(3n){
     height: calc(7px + 20vw);
     overflow: hidden;
@@ -106,7 +105,6 @@ path{
 /* Segundo li */
 .li-author{
     display: flex;
-    /* align-items: center; */
     justify-content: end;
 }
 
@@ -118,7 +116,6 @@ path{
 /* Tercer li */
 .li-characters{
     display: flex;
-    /* align-items: center; */
     justify-content: start;
 }
 
@@ -175,7 +172,7 @@ i{
     color: var(--color-a);
 }
 
-/* Pantalla History */
+/* History screen*/
 
 .container-history{
     background-image: radial-gradient(circle at top right, rgb(255,123,27) 0%, rgb(255,123,27) 48%,rgb(244,102,6) 48%, rgb(244,102,6) 53%,rgb(252,158,9) 53%, rgb(252,158,9) 56%,rgb(255,182,6) 56%, rgb(255,182,6) 69%,rgb(255,205,4) 69%, rgb(255,205,4) 100%), url(../image/img-history/nube.png);
@@ -230,7 +227,6 @@ i{
 
 .container-history .history article {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     position: relative;
@@ -279,7 +275,7 @@ i{
     filter: drop-shadow(8px 0px 6px black);
 }
 
-/* Pantalla Author */
+/* Author screen */
 
 .container-author{
     height: 100vh;
@@ -433,7 +429,7 @@ footer h2{
     filter: drop-shadow(15px 20px 9px black);
 }
 
-/* Pantalla Characters */
+/* Characters screen */
 
 .container-characters nav {
     position: fixed;
@@ -473,7 +469,7 @@ ul:last-of-type li:last-of-type {
     -webkit-text-stroke-color: black;
 }
 
-/* Section Haku */
+/* Haku section */
 .haku{
     display: flex;
     flex-direction: column;
@@ -631,7 +627,7 @@ ul:last-of-type li:last-of-type {
     color: chartreuse;
 }
 
-/* Pantalla Inspiration */
+/* Inspiration screen */
 
 .titulo-inspiracion{
     display: flex;
