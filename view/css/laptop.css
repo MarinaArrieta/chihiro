@@ -12,32 +12,38 @@
 
 /* Imágen Dragón Haku */
 .container div:nth-child(2n) figure:last-of-type img {
-    width: 425px;
+    width: 416px;
 }
 
-ul {
+.nav-index ul {
     width: 70%;
     justify-content: flex-start;
 }
 
 /* Burbujas Nav */
-a {
-    font-size: 2.6rem;
-    width: 170px;
-    height: 160px;
+
+.container-index nav ul {
+    width: 621px;
+    height: unset;
+    justify-content: flex-start;
+}
+
+.nav-index a {
+    font-size: 2rem;
+    width: 98px;
+    height: 92px;
     border-radius: 83px;
 }
 
-ul li:nth-child(2n) a {
-    width: 136px;
-    height: 136px;
+.nav-index ul li:nth-child(2n) a {
+    width: 124px;
+    height: 119px;
 }
 
-ul li:nth-child(3n) a {
-    width: 166px;
-    height: 159px;
+.nav-index ul li:nth-child(3n) a {
+    width: 124px;
+    height: 115px;
     border-radius: 104px;
-    z-index: 1;
 }
 
 .container div:nth-child(3n) {
@@ -94,7 +100,35 @@ ul li:nth-child(3n) a {
     text-align: center;
 }
 
+/* Pantalla Characters */
+.footer-characters nav ul{
+    width: unset;
+}
+.footer-characters a {
+    width: 100%;
+    height: unset;
+}
+
 @media (min-width: 1440px) {
+
+    /* Pantalla Index */
+    .nav-index a {
+        font-size: 3rem;
+        width: 139px;
+        height: 140px;
+    }
+
+    .nav-index ul li:nth-child(3n) a {
+        width: 201px;
+        height: 206px;
+    }
+
+    .nav-index ul li:nth-child(2n) a {
+        width: 172px;
+        height: 161px;
+    }
+
+    /* Pantalla Historia */
     .author nav i {
         font-size: 2rem;
     }
@@ -130,19 +164,8 @@ ul li:nth-child(3n) a {
     .footer-author figure img {
         width: 271px;
     }
-}
 
-/* Pantalla Characters */
-.footer-characters nav ul{
-    width: unset;
-}
-.footer-characters a {
-    width: 100%;
-    height: unset;
-}
-
-@media (min-width: 1440px) {
-
+    /* Pantalla Author */
     .container-characters nav i {
         font-size: 2rem;
     }
@@ -162,10 +185,8 @@ ul li:nth-child(3n) a {
     .haku article p {
         font-size: 3rem;
     }
-}
 
-@media (min-width: 1440px) {
-
+    /* Pantalla Inspiration */
     .titulo-inspiracion {
         font-size: 6rem;
     }
