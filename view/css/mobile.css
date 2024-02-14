@@ -420,7 +420,8 @@ footer h2{
 }
 
 .footer-author figure{
-    width: 100%;
+    /* width: 100%; */
+    overflow: hidden;
 }
 
 .footer-author figure img{
@@ -429,6 +430,7 @@ footer h2{
     bottom: 0;
     width: 50%;
     filter: var(--footer-author-figure-img);
+    overflow: hidden;
 }
 
 /* Characters screen */
