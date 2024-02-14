@@ -7,6 +7,9 @@
 .container{
     height: 100vh;
     padding: 0.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     overflow: hidden;
     background-image: var(--gradient-header-clouds);
     background-position: top;
@@ -52,21 +55,12 @@ figure{
     filter: var(--filter-image-haku);
 }
 
-/* Wave div */
-.container div:nth-child(3n){
-    height: calc(7px + 20vw);
-    overflow: hidden;
-    filter: var(--filter-image-wave-lightblue);
-}
-
-path{
-    fill: var(--fill-path);
-}
-
 .wave{
-    position: absolute;
     width: 100%;
-    bottom: 0;
+    filter: var(--filter-image-wave-lightblue);
+    height: 150px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .container-index nav{
