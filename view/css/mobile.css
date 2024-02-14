@@ -475,10 +475,12 @@ ul:last-of-type li:last-of-type {
     align-items: end;
     height: 40vh;
     width: 100%;
+    overflow: unset;
 }
 
 .wave2{
     filter: var(--wave2);
+    overflow: unset;
 }
 
 .wave3{
