@@ -637,6 +637,50 @@ ul:last-of-type li:last-of-type {
 
 /* Inspiration screen */
 
+.container-inspiration{
+    padding: 0.1px;
+    background-image: var(--footer-characters-background-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wave-inspiracion{
+    height: 100vh !important;
+    position: fixed;
+    filter: drop-shadow(34px 0px 0px aliceblue);
+}
+
+.wave-inspiracion2{
+    height: 100vh !important;
+    position: fixed;
+    filter: drop-shadow(-34px 0px 0px aliceblue);
+}
+
+.nav-inspiration{
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-inspiration li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-inspiration i{
+    font-size: 1.4rem;
+    color: var(--arrow-i);
+    padding: 4px;
+    box-shadow: var(--arrow-i-box-shadow);
+    border: solid;
+    border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
+    background: var(--background-a);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--black);
+}
+
 .titulo-inspiracion{
     display: flex;
     align-items: center;
@@ -651,6 +695,8 @@ ul:last-of-type li:last-of-type {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .jiufen{
@@ -663,11 +709,6 @@ ul:last-of-type li:last-of-type {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.wave3{
-    width: 100%;
-    filter: var(--wave3-filter);
 }
 
 .jiufen article{
@@ -714,11 +755,6 @@ ul:last-of-type li:last-of-type {
 .jiufen figure img{
     width: 90%;
     border-radius: 4px;
-}
-
-.wave4{
-    width: 100%;
-    filter: var(--wave4);
 }
 
 .dogo{

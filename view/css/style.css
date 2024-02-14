@@ -70,14 +70,11 @@
     --bo-background-image: linear-gradient(to top,#FFBD59, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/bo/poster.jpg);
     --zeniba-background-image: linear-gradient(to top,#FFBD59, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/zeniba/zeniba1.jpg);
     --footer-characters-background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%);
-    --titulo-inspiracion-background-image: linear-gradient(to top, #30cfd0ba 3%, #ff914d 54%, #ff313199 81%), url(../image/img-inspiration/flowers.jpg);
-    --jiufen-background-image: linear-gradient(to top, #30cfd073 3%, #ff914d8f 54%, #ff31317a 81%),url(../image/img-inspiration/jiufen/jiufen2.jpg);
     --wave3-filter: drop-shadow(0px 7px 0px aliceblue);
     --jiufen-p-background: rgba( 255, 255, 255, 0.4 );
     --jiufen-p-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     --jiufen-p-border: 1px solid rgba( 255, 255, 255, 0.18 );
     --arrow-i-box-shadow: 2px 3px 0px 1px #795548;
-    --dogo-background-image: linear-gradient(to top, #30cfd073 3%, #ff914d8f 54%, #ff31317a 81%),url(../image/img-inspiration/dogo/dogo.jpg);
     --author-figure-img-filter: drop-shadow(15px 20px 9px var(--black));
 
     /* Fuentes */
