@@ -95,7 +95,7 @@ path{
     align-items: center;
     justify-content: center;
     rotate: -6deg;
-    
+
 }
 
 .li-history:hover{
@@ -149,8 +149,8 @@ path{
     font-size: 1.7rem;
     font-family: var(--fuente-title);
     font-weight: bolder;
-    color: #0c1853;
-    text-shadow: 1px 2px 0px #ffffff;
+    color: var(--nav-index-a);
+    text-shadow: var(--text-shadow-nav-a);
     width: 100px;
     height: 100px;
     border-radius: 55px;
@@ -167,12 +167,12 @@ i{
 /* History screen*/
 
 .container-history{
-    background-image: radial-gradient(circle at top right, rgb(255,123,27) 0%, rgb(255,123,27) 48%,rgb(244,102,6) 48%, rgb(244,102,6) 53%,rgb(252,158,9) 53%, rgb(252,158,9) 56%,rgb(255,182,6) 56%, rgb(255,182,6) 69%,rgb(255,205,4) 69%, rgb(255,205,4) 100%), url(../image/img-history/nube.png);
-    height: 100vh; 
+    background-image: var(--backgrund-image-history);
     padding: 0.1px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 100vh;
 }
 
 .container-history header div{
@@ -207,14 +207,14 @@ i{
 
 .arrow i{
     font-size: 1.4rem;
-    color: #FFEB3B;
+    color: var(--arrow-i);
     padding: 4px;
-    box-shadow: 2px 3px 0px 1px #795548;
+    box-shadow: var(--arrow-i-box-shadow);
     border: solid;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: var(--black);
 }
 
 .container-history .history article {
@@ -228,7 +228,7 @@ i{
 .history article h1{
     font-family: var(--fuente-title);
     font-size: 2.5rem;
-    text-shadow: -3px 2px 0px #f7d39e;
+    text-shadow: var(--history-article-h1);
     color: var(--color-h1);
     position: relative;
     z-index: 1;
@@ -240,16 +240,15 @@ i{
     padding: 19px;
     margin-bottom: 0;
     text-align: justify;
-    color: #1a0700;
-    background: rgba( 255, 255, 255, 0.25 );
-    background: rgba( 255, 255, 255, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    color: var(--history-main-p);
+    background: var(--history-main-background);
+    box-shadow: var(--shadow-history-p);
     backdrop-filter: blur( 17px );
     -webkit-backdrop-filter: blur( 17px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: var(--border-history-p);
     width: 73%;
-    text-shadow: -1px 1px 3px #f5deb3;
+    text-shadow: var(--shadow-history-text-p);
     font-family: var(--fuente-p);
     font-weight: 600;
 }
@@ -264,7 +263,7 @@ i{
     bottom: 0px;
     left: 0;
     overflow: hidden;
-    filter: drop-shadow(8px 0px 6px black);
+    filter: var(--history-figure-img);
 }
 
 /* Author screen */
@@ -274,7 +273,7 @@ i{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-author/poster.jpg);
+    background-image: var(--history-container-author-background);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,14 +307,14 @@ i{
 
 .author nav i{
     font-size: 1.4rem;
-    color: #FFEB3B;
+    color: var(--arrow-i);
     padding: 4px;
-    box-shadow: 2px 3px 0px 1px #795548;
+    box-shadow: var(--arrow-i-box-shadow);
     border: solid;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: var(--black);
 }
 
 .author figure{
@@ -324,7 +323,7 @@ i{
 
 .author figure img{
     width: 100%;
-    filter: drop-shadow(15px 20px 9px black);
+    filter: var(--author-figure-img-filter);
 }
 
 .author h1{
@@ -332,12 +331,12 @@ i{
     padding: 20px;
     text-align: center;
     font-family: var(--fuente-title);
-    color: #052d41;
+    color: var(--author-h1);
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
-    border: 1px solid #ffbc00;
-    box-shadow: 1px 5px 0px 4px #631f0a;
-    text-shadow: -1px 0px 0px #f7f5f0;
+    border: var(--author-h1-border);
+    box-shadow: var(--author-h1-box-shadow);
+    text-shadow: var(--author-h1-text-shadow);
 }
 
 .section-author main{
@@ -357,14 +356,14 @@ i{
     margin-top: 0;
     padding: 10px;
     color: var(--color-h1);
-    text-shadow: -1px 1px 1px white;
+    text-shadow: var(--author-h1-text-shadow);
     text-align: justify;
-    background: rgba( 255, 255, 255, 0.55 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: var(--section-author-article-p-background);
+    box-shadow: var(--section-author-article-p-boxshadow);
     backdrop-filter: blur( 16.5px );
     --webkit-backdrop-filter: blur( 16.5px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: var(--section-author-article-p-border);
 }
 
 .footer-author{
@@ -375,7 +374,7 @@ i{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #001416c4;
+    background-color: var(--footer-author-div);
     width: 128px;
     border-radius: 41px;
     padding: 10px;
@@ -384,7 +383,7 @@ i{
 
 footer h2{
     font-family: var(--fuente-p);
-    color: #f2f7fc;
+    color: var(--footer-h2);
     margin: 0;
     font-size: 1.2rem;
 }
@@ -399,13 +398,13 @@ footer h2{
     text-decoration: none;
     font-size: 1.1rem;
     font-family: var(--fuente-p);
-    color: #00ffea;
+    color: var(--footer-author-a);
     font-weight: 600;
 }
 
 .footer-author a:hover{
     font-size: 2rem;
-    color: chartreuse;
+    color: var(--a-hover);
     text-align: center;
 }
 
@@ -418,7 +417,7 @@ footer h2{
     right: 0;
     bottom: 0;
     width: 50%;
-    filter: drop-shadow(15px 20px 9px black);
+    filter: var(--footer-author-figure-img);
 }
 
 /* Characters screen */
@@ -451,14 +450,14 @@ ul:last-of-type li:last-of-type {
 
 .container-characters nav i {
     font-size: 1.4rem;
-    color: #FFEB3B;
+    color: var(--container-characters-nav-i);
     padding: 4px;
-    box-shadow: 2px 3px 0px 1px #795548;
+    box-shadow: var(--arrow-i-box-shadow);
     border: solid;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: var(--black);
 }
 
 /* Haku section */
@@ -468,7 +467,7 @@ ul:last-of-type li:last-of-type {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/haku/dragon.jpg);
+    background-image: var(--haku);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -483,34 +482,34 @@ ul:last-of-type li:last-of-type {
 }
 
 .wave2{
-    filter: drop-shadow(0px -13px 0px #ff5722eb);
+    filter: var(--wave2);
 }
 
 .wave3{
-    filter: drop-shadow(0px 13px 0px #30cfd0);
+    filter: var(--wave3);
 }
 
 .haku figure{
     width: 40%;
     position: relative;
     z-index: 0;
-    filter: drop-shadow(-13px 10px 4px #f0f8ff80);
+    filter: var(--haku-figure);
 }
 
 .haku figure img{
     width: 186px;
-    filter: drop-shadow(-13px 10px 4px #000000d4);
+    filter: var(--haku-figure);
 }
 
 .haku h1{
     font-family: var(--fuente-title);
     color: var(--color-h1);
     font-size: 2.3rem;
-    text-shadow: 1px 2px 0px wheat;
+    text-shadow: var(--haku-h1-text-shadow);
     text-align: center;
-    background-image: linear-gradient(to top, #7ce2ef 0%, #FF9800 100%);
+    background-image: var(--haku-h1-background-image);
     padding: 5px;
-    border: 1px solid #795548;
+    border: var(--haku-h1-border);
     border-radius: 4px;
     margin-bottom: 0;
     position: relative;
@@ -529,54 +528,54 @@ ul:last-of-type li:last-of-type {
     margin-top: 0;
     padding: 10px;
     color: var(--color-h1);
-    text-shadow: -1px 1px 1px white;
+    text-shadow: var(--haku-article-p-text-shadow);
     text-align: justify;
-    background: rgba( 255, 255, 255, 0.55 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: var(--haku-article-p-background);
+    box-shadow: var(--haku-article-p-box-shadow);
     backdrop-filter: blur( 16.5px );
     --webkit-backdrop-filter: blur( 16.5px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: var(--haku-article-p-border);
 }
 
 /* Section Chihiro */
 .chihiro{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/chihiro/house.jpg);
+    background-image: var(--chihiro-background-image);
 }
 
 /* Section Yubaba */
 .yubaba{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/yubaba/poster.jpg);
+    background-image: var(--yubaba-background-image);
 }
 
 /* Section Lin */
 .lin{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/lin/limpiando.jpg);
+    background-image: var(--lin-background-image);
 }
 
 /* Section Kamaji */
 .kamaji{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/kamaji/kamaji1.jpg);
+    background-image: var(--kamaji-background-image);
 }
 
 /* Section Susuwatari */
 .susuwatari{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/susuwatari/susuwatari1.jpg);
+    background-image: var(--susuwatari-background-image);
 }
 
 /* Section Sin cara */
 .sincara{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/sincara/poster.jpg);
+    background-image: var(--sincara-background-image);
 }
 
 /* Section Bo */
 .bo{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/bo/poster.jpg);
+    background-image: var(--bo-background-image);
 }
 
 /* Section Zeniba */
 .zeniba{
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%),url(../image/img-characters/zeniba/zeniba1.jpg);
+    background-image: var(--zeniba-background-image);
 }
 
 .footer-characters{
@@ -585,11 +584,11 @@ ul:last-of-type li:last-of-type {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to top, #30cfd0ad 3%, #ff914dbd 54%, #ff3131bd 81%);
+    background-image: var(--footer-characters-background-image);
 }
 
 .footer-characters nav{
-    background-color: #001416c4;
+    background-color: var(--footer-author-div);
     width: 300px;
     border-radius: 41px;
     display: flex;
@@ -602,7 +601,7 @@ ul:last-of-type li:last-of-type {
 
 .footer-characters h2{
     font-family: var(--fuente-p);
-    color: #f2f7fc;
+    color: var(--footer-h2);
     margin: 31px;
     font-size: 3rem;
 }
@@ -611,7 +610,7 @@ ul:last-of-type li:last-of-type {
     text-decoration: none;
     font-size: 2rem;
     font-family: var(--fuente-p);
-    color: #00ffea;
+    color: var(--footer-author-a);
     font-weight: 600;
 }
 
@@ -631,7 +630,7 @@ ul:last-of-type li:last-of-type {
     color: var(--color-h1);
     text-shadow: 1px 2px 0px wheat;
     font-family: var(--fuente-title);
-    background-image: linear-gradient(to top, #30cfd0ba 3%, #ff914d 54%, #ff313199 81%), url(../image/img-inspiration/flowers.jpg);
+    background-image: var(--titulo-inspiracion-background-image);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -639,7 +638,7 @@ ul:last-of-type li:last-of-type {
 
 .jiufen{
     height: 100vh;
-    background-image: linear-gradient(to top, #30cfd073 3%, #ff914d8f 54%, #ff31317a 81%),url(../image/img-inspiration/jiufen/jiufen2.jpg);
+    background-image: var(--jiufen-background-image);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -651,7 +650,7 @@ ul:last-of-type li:last-of-type {
 
 .wave3{
     width: 100%;
-    filter: drop-shadow(0px 7px 0px aliceblue);
+    filter: var(--wave3-filter);
 }
 
 .jiufen article{
@@ -664,9 +663,9 @@ ul:last-of-type li:last-of-type {
     margin: 0;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
-    border: 1px solid #ffbc00;
-    box-shadow: 1px 5px 0px 4px #631f0a;
-    text-shadow: -1px 0px 0px #f7f5f0;
+    border: var(--author-h1-border);
+    box-shadow: var(--author-h1-box-shadow);
+    text-shadow: var(--author-h1-text-shadow);
     padding: 22px;
     font-size: 2.3rem;
     font-family: var(--fuente-title);
@@ -675,12 +674,12 @@ ul:last-of-type li:last-of-type {
 .jiufen p{
     font-size: 1.3rem;
     font-family: var(--fuente-p);
-    background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: var(--jiufen-p-background);
+    box-shadow: var(--jiufen-p-box-shadow);
     backdrop-filter: blur( 14px );
     --webkit-backdrop-filter: blur( 14px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: var(--jiufen-p-border);
     width: 80%;
     padding: 15px;
     text-align: justify;
@@ -698,12 +697,12 @@ ul:last-of-type li:last-of-type {
 
 .wave4{
     width: 100%;
-    filter: drop-shadow(0px -7px 0px aliceblue);
+    filter: var(--wave4);
 }
 
 .dogo{
     height: 100vh;
-    background-image: linear-gradient(to top, #30cfd073 3%, #ff914d8f 54%, #ff31317a 81%),url(../image/img-inspiration/dogo/dogo.jpg);
+    background-image: var(--dogo-background-image);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -723,9 +722,9 @@ ul:last-of-type li:last-of-type {
     margin: 0;
     border-radius: 31% 69% 23% 77% / 66% 18% 82% 34%;
     background: var(--background-a);
-    border: 1px solid #ffbc00;
-    box-shadow: 1px 5px 0px 4px #631f0a;
-    text-shadow: -1px 0px 0px #f7f5f0;
+    border: var(--author-h1-border);
+    box-shadow: var(--author-h1-box-shadow);
+    text-shadow: var(--author-h1-text-shadow);
     padding: 22px;
     font-size: 2rem;
     font-family: var(--fuente-title);
@@ -734,12 +733,12 @@ ul:last-of-type li:last-of-type {
 .dogo p{
     font-size: 1.2rem;
     font-family: var(--fuente-p);
-    background: rgba( 255, 255, 255, 0.4 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    background: var(--jiufen-p-background);
+    box-shadow: var(--jiufen-p-box-shadow);
     backdrop-filter: blur( 14px );
     --webkit-backdrop-filter: blur( 14px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: var(--jiufen-p-border);
     width: 80%;
     padding: 15px;
     text-align: justify;
