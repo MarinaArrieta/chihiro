@@ -10,6 +10,12 @@
 
 .container div:nth-child(2n) figure:last-of-type img  {
     width: 57%;
+    bottom: 0px;
+}
+
+.container-index nav ul {
+    width: 57%;
+    height: 53vh;
 }
 
 /* Pantalla History */
