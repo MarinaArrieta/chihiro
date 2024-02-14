@@ -111,6 +111,20 @@
     height: unset;
 }
 
+/* Inspiration screen */
+.container-inspiration {
+    background-position: bottom;
+}
+
+.nav-inspiration{
+    width: 100%;
+    display: flex;
+}
+
+.jiufen figure img {
+    width: 600px;
+}
+
 @media (min-width: 1440px) {
 
     /* Index  screen */
@@ -233,5 +247,10 @@
 
     .dogo p {
         font-size: 1.9rem;
+    }
+
+    /* Inspiration screen */
+    .jiufen figure img {
+        width: 700px;
     }
 }

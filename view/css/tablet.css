@@ -92,10 +92,12 @@
 
 /* Inspirationscreen */
 .jiufen p {
+    width: 50%;
     font-size: 1.6rem;
 }
 
 .dogo p {
+    width: 50%;
     font-size: 1.6rem;
 }
 
