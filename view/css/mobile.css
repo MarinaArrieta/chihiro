@@ -266,7 +266,7 @@ i{
     bottom: 0px;
     left: 0;
     overflow: hidden;
-    /* filter: var(--history-figure-img); */
+    filter: var(--history-figure-img);
 }
 
 /* Author screen */
@@ -420,7 +420,6 @@ footer h2{
 }
 
 .footer-author figure{
-    /* width: 100%; */
     overflow: hidden;
 }
 
@@ -429,7 +428,7 @@ footer h2{
     right: 0;
     bottom: 0;
     width: 50%;
-    /* filter: var(--footer-author-figure-img); */
+    filter: var(--footer-author-figure-img);
     overflow: hidden;
 }
 
