@@ -261,12 +261,7 @@ i{
 }
 
 .cloud{
-    width: 100%;
-/*     position: absolute;
-    bottom: 0px;
-    left: 0; */
-    overflow: hidden;
-    
+    width: 100%;   
 }
 
 .cloud img{
