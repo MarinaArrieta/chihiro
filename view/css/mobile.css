@@ -109,7 +109,7 @@ figure{
 }
 
 .li-author:hover{
-    transform: translate(1%) scale(1.2);
+    transform: translate(-9%) scale(1.1);
     transition: 4s;
 }
 
@@ -121,8 +121,8 @@ figure{
 }
 
 .li-characters:hover{
-    transform: translateY(-5%) scale(1.1);
-    transition: 4s;
+    transform: translateY(-16%) scale(1);
+    transition: 2s;
 }
 
 /* Cuarto li */
@@ -430,7 +430,7 @@ footer h2{
 }
 
 .footer-author figure img{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     width: 50%;
