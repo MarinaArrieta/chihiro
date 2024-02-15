@@ -421,6 +421,7 @@ footer h2{
 
 .footer-author figure{
     overflow: hidden;
+    width: 100%;
 }
 
 .footer-author figure img{
