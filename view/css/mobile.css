@@ -272,7 +272,7 @@ i{
 /* Author screen */
 
 .container-author{
-    height: 100vh;
+    height: 99.99vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
