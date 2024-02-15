@@ -91,21 +91,21 @@ figure{
     display: flex;
     align-items: center;
     justify-content: center;
-    rotate: -6deg;
+    transform: rotate(-6deg);
 
 }
 
 .li-history:hover{
     transform: translateY(40%) scale(1);
     transition: 4s;
-    rotate: -6deg;
+    transform: rotate(-6deg);
 }
 
 /* Segundo li */
 .li-author{
     display: flex;
     justify-content: end;
-    rotate: 7deg;
+    transform: rotate(7deg);
 }
 
 .li-author:hover{
@@ -117,7 +117,7 @@ figure{
 .li-characters{
     display: flex;
     justify-content: start;
-    rotate: -6deg;
+    transform: rotate(-6deg);
 }
 
 .li-characters:hover{
@@ -130,7 +130,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: end;
-    rotate: 7deg;
+    transform: rotate(7deg);
 }
 
 .li-inspiration:hover{
