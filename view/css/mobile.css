@@ -260,12 +260,20 @@ i{
     font-size: 3rem;
 }
 
-.history figure img{
+.cloud{
     width: 100%;
-    position: absolute;
+/*     position: absolute;
     bottom: 0px;
-    left: 0;
+    left: 0; */
     overflow: hidden;
+    
+}
+
+.cloud img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     filter: var(--history-figure-img);
 }
 
@@ -693,7 +701,7 @@ ul:last-of-type li:last-of-type {
     height: 100vh;
     font-size: 3rem;
     color: var(--color-h1);
-    text-shadow: 1px 2px 0px wheat;
+    text-shadow: var(--titulo-inspiracion-text-shadow);
     font-family: var(--fuente-title);
     background-image: var(--titulo-inspiracion-background-image);
     background-repeat: no-repeat;
@@ -701,6 +709,8 @@ ul:last-of-type li:last-of-type {
     margin: 0;
     position: relative;
     z-index: 1;
+    -webkit-text-stroke-width: 1e-7px;
+    -webkit-text-stroke-color: var(--black);
 }
 
 .jiufen{
