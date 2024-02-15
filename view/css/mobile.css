@@ -358,6 +358,8 @@ i{
 }
 
 .section-author article p{
+    position: relative;
+    z-index: 1;
     width: 80%;
     font-size: 1.2rem;
     font-family: var(--fuente-p);
