@@ -92,13 +92,11 @@ figure{
     align-items: center;
     justify-content: center;
     transform: rotate(-6deg);
-
 }
 
 .li-history:hover{
-    transform: translateY(40%) scale(1);
+    transform: translateY(30%) scale(1.1);
     transition: 4s;
-    transform: rotate(-6deg);
 }
 
 /* Segundo li */
