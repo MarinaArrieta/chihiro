@@ -14,4 +14,8 @@ Herramientas:
 
 🐉 Validación de código: https://validator.w3.org/#validate_by_input
 
+🐉 Validación de tags Open Graph: https://developers.facebook.com/tools/debug/
+
+🐉 Almacenamiento de imágenes: https://postimages.org/ 
+
 [![index.png](https://i.postimg.cc/zXZJrVVY/index.png)](https://postimg.cc/G9K0P3FX)
