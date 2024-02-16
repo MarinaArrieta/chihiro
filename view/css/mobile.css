@@ -609,6 +609,12 @@ ul:last-of-type li:last-of-type {
     background-image: var(--footer-characters-background-image);
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 fieldset{
     padding: 0;
     margin: 0;
@@ -617,7 +623,6 @@ fieldset{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40vh;
 }
 
 legend{
@@ -653,6 +658,15 @@ legend{
     width: 20px;
     height: 20px;
     margin-right: 15px;
+}
+
+.boton{
+    font-family: var(--fuente-p);
+    background: var(--background-a);
+    border: 1px solid var(--arrow-i);
+    border-radius: 4px;
+    padding: 8px 17px;
+    font-weight: bold;
 }
 
 .footer-characters{
