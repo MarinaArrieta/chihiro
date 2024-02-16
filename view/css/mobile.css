@@ -630,6 +630,14 @@ legend{
     font-weight: bold;
 }
 
+.form-characters li{
+    font-family: var(--fuente-p);
+    text-shadow: var(--shadow-history-text-p);
+    color: var(--author-h1);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
 .form-characters ul{
     margin: 0;
     padding: 0;
