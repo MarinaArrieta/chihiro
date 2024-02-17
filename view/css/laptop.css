@@ -111,6 +111,10 @@
     height: unset;
 }
 
+.form-characters figure img {
+    width: 35%;
+}
+
 /* Inspiration screen */
 .container-inspiration {
     background-position: bottom;
@@ -222,6 +226,27 @@
 
     .haku article p {
         font-size: 3rem;
+    }
+
+    .form-characters figure img {
+        width: 435px;
+    }
+
+    legend {
+        font-size: 1.6rem;
+    }
+
+    .first-form input {
+        width: 30px;
+        height: 30px;
+    }
+
+    .form-characters li {
+        font-size: 1.4rem;
+    }
+
+    .boton{
+        font-size: 1.4rem;
     }
 
     /* Inspiration screen*/
