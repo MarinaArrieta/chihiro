@@ -1,6 +1,16 @@
-Página con Información sobre la película "El Viaje de Chihiro" de Hayao Miyazaki
+Página dedicada a la película "El Viaje de Chihiro" de Hayao Miyazaki, acá podés encontrar información sobre:
+
+🌅 Historia sobre la aventura de Chihiro
+
+🌅 Personajes de la película
+
+🌅 Autor de la película
+
+🌅 Lugares que inspiraron a Hayao Miyazaki para esta película
 
 Herramientas:
+
+🐉 Tecnologías: HTML, CSS
 
 🐉 Maquetación: CANVA
 
