@@ -699,6 +699,22 @@ button, input{
     outline: var(--arrow-i) auto 3px;
 }
 
+.form-characters:last-of-type figure{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.form-characters:last-of-type figure:last-of-type img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter: unset;
+    width: 200px;
+}
+
 .footer-characters{
     height: 100vh;
     display: flex;
