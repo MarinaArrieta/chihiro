@@ -695,6 +695,10 @@ button, input{
     border: 1px solid var(--footer-author-a);
 }
 
+:focus-visible {
+    outline: var(--arrow-i) auto 3px;
+}
+
 .footer-characters{
     height: 100vh;
     display: flex;
